@@ -23,4 +23,6 @@ Make sure you have the following Python packages installed:
 - `textblob`
 
 You can install them using:
+```bash
 !pip install pandas beautifulsoup4 nltk textblob
+```
