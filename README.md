@@ -15,6 +15,24 @@ ensuring that your data is in optimal shape for machine learning or natural lang
 - Lemmatizes words for better text normalization.
 - Removes extra spaces from text.
 
+##IMPORTANT: Download these packages before use
+```bash
+nltk.download('stopwords')     # --> Text Preprocessing
+```
+```bash
+nltk.download('wordnet')       # --> Text Preprocessing
+```
+```bash
+nltk.download('vader_lexicon') # --> Sentiment Analysis
+```
+
+## Note: 
+### If you want to use this code the dataframe shouldn't have null values.
+Example for handling null values:
+```bash
+df = df.dropna(subset="Review")
+```
+
 ## Installation and Requirements
 Make sure you have the following Python packages installed:
 - `pandas`
