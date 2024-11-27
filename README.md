@@ -22,9 +22,6 @@ nltk.download('stopwords')     # --> Text Preprocessing
 ```bash
 nltk.download('wordnet')       # --> Text Preprocessing
 ```
-```bash
-nltk.download('vader_lexicon') # --> Sentiment Analysis
-```
 
 ## Note: 
 ### If you want to use this code the dataframe shouldn't have null values.
